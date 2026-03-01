@@ -3,3 +3,4 @@ server:
 
 trading:
   fee-rate: 0.001
+  order-book-depth: 100
