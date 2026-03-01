@@ -3,3 +3,6 @@ server:
 
 trading:
   fee-rate: 0.001
+
+user:
+  max-login-attempts: 5
