@@ -1,9 +1,19 @@
 package trading;
 
+/**
+ * Управляет расчетом комиссий за совершенные сделки.
+ * Комиссия может быть фиксированной или зависеть от объема.
+ */
 public class CommissionManager {
-	private double defaultRate = 0.001; // 0.1%
+	/** Базовая ставка комиссии (по умолчанию 0.1%) */
+	private double defaultRate = 0.001;
 
-	// TODO: implement commission calculation
+	/**
+	 * Рассчитывает комиссию для указанной суммы.
+	 *
+	 * @param amount сумма сделки
+	 * @return размер комиссии (произведение суммы на базовую ставку)
+	 */
 	public double calculateCommission(double amount) {
 		return amount * defaultRate;
 	}
