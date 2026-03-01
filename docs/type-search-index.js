@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"trading","l":"CommissionManager"},{"p":"trading","l":"OrderBook"},{"p":"user","l":"PortfolioManager"},{"p":"user","l":"TradeHistory"},{"p":"trading","l":"TradingEngine"},{"p":"user","l":"UserService"}];updateSearchResults();
