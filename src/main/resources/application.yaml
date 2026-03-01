@@ -4,3 +4,6 @@ server:
 trading:
   fee-rate: 0.001
   order-book-depth: 100
+
+user:
+  max-login-attempts: 5
